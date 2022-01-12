@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        fontFamily: 'Roboto',
+        primaryColor: Color(0xFFFF1493),
       ),
       initialRoute: '/',
       onGenerateRoute: (settings) {

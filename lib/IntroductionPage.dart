@@ -16,6 +16,7 @@ class _IntroductionPageState extends State<IntroductionPage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Theme.of(context).primaryColor,
         child: Center(
           child: Icon(
             Icons.home,
